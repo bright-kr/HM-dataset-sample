@@ -1,64 +1,64 @@
 # H&M-dataset-sample
 
-<h2>A sample dataset of 1001 H&M products</h2>
+<h2>1001개의 H&M 제품으로 구성된 샘플 データセット</h2>
 
 ![H&M products dataset header](https://github.com/luminati-io/HM-dataset-sample/blob/main/HM-dataset.png)
 
-A H&M products dataset sample of over 1000 records. Dataset was extracted using the <b>Bright Data API</b>.
+1000개 이상의 レコード로 구성된 H&M 제품 データセット 샘플입니다. データセット는 <b>Bright Data API</b>를 사용하여 추출되었습니다.
 
-<h2>Some of the data points that are included in the H&M products dataset:</h2>
+<h2>H&M 제품 データセット에 포함된 일부 データポイント:</h2>
 
-* ```category_tree```: The hierarchy of categories to which the product belongs  
-* ```color```: The color of the product  
-* ```country_code```: Country code indicating the location or availability of the product  
-* ```county_of_origin```: The country of origin for the product  
-* ```currency```: The currency in which the product price is listed  
-* ```delivery```: Information about product delivery  
-* ```description```: A detailed description of the product  
-* ```domain```: The domain or website where the product is listed  
-* ```features```: Features or characteristics of the product  
-* ```final_price```: The current price of the product  
-* ```image_count```: The total number of images associated with the product  
-* ```image_urls```: URLs pointing to images of the product  
-* ```in_stock```: Indicates whether the product is currently in stock  
-* ```initial_price```: The original or initial price of the product  
-* ```main_image```: URL or identifier of the main image associated with the product  
-* ```manufacturer```: The manufacturer of the product  
-* ```offers```: Information about different offers or packages for the product  
-* ```people_bought_together```: Products that are commonly bought together with the current product  
-* ```product_name```: The name or title of the product  
-* ```reviews_count```: The total number of customer reviews for the product  
-* ```related_products```: Other products related to the current one  
-* ```seller_name```: The name of the seller offering the product  
-* ```size```: The size of the product  
-* ```top_reviews```: Highlights or top customer reviews for the product  
+* ```category_tree```: 제품이 속한 カテゴリー 계층 구조  
+* ```color```: 제품의 색상  
+* ```country_code```: 제품의 위치 또는 가용성을 나타내는 국가 코드  
+* ```county_of_origin```: 제품의 원산지 국가  
+* ```currency```: 제품 가격이 표시된 통화  
+* ```delivery```: 제품 배송에 관한 정보  
+* ```description```: 제품에 대한 상세 설명  
+* ```domain```: 제품이 등록된 도메인 또는 웹사이트  
+* ```features```: 제품의 기능 또는 특성  
+* ```final_price```: 제품의 현재 가격  
+* ```image_count```: 제품과 연관된 전체 이미지 수  
+* ```image_urls```: 제품 이미지로 연결되는 URL  
+* ```in_stock```: 제품이 현재 재고가 있는지 여부를 나타냅니다  
+* ```initial_price```: 제품의 원래 또는 초기 가격  
+* ```main_image```: 제품과 연관된 메인 이미지의 URL 또는 식별자  
+* ```manufacturer```: 제품의 제조사  
+* ```offers```: 제품에 대한 다양한 오퍼 또는 패키지 정보  
+* ```people_bought_together```: 현재 제품과 함께 흔히 구매되는 제품  
+* ```product_name```: 제품명 또는 제목  
+* ```reviews_count```: 제품의 전체 고객 리뷰 수  
+* ```related_products```: 현재 제품과 관련된 다른 제품  
+* ```seller_name```: 제품을 제공하는 판매자 이름  
+* ```size```: 제품의 사이즈  
+* ```top_reviews```: 제품에 대한 하이라이트 또는 상위 고객 리뷰  
 
-And a lot more.
+그 외에도 더 많이 포함됩니다.
 
-This is a sample subset which is derived from the "H&M products"
-dataset which includes more than <b>4.1M records</b>.
+이는 410만 개 이상의 <b>4.1M records</b>를 포함하는 "H&M products"
+データセット에서 파생된 샘플 サブセット입니다.
 
-Available dataset file formats: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
+사용 가능한 データセット 파일 형식: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
 
-Dataset delivery type options: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>.
+データセット 전달 유형 옵션: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>.
 
-Update frequency: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>.
+업데이트 빈도: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>.
 
-Data enricH&Ment available as an addition to the data points extracted: <b>Based on request.</b>
+추출된 データポイント에 추가로 제공 가능한 Data enricH&Ment: <b>Based on request.</b>
 
-<b>[Get the full H&M products dataset](https://brightdata.com/products/datasets/fashion/H&M)</b>.
+<b>[전체 H&M 제품 データセット 받기](https://brightdata.co.kr/products/datasets/fashion/H&M)</b>.
 
-<h2>What are the H&M products datasets use cases?</h2>
+<h2>H&M 제품 データセット의 활용 사례는 무엇입니까?</h2>
 
-<h3>1. Pricing Optimization</h3>
-Develop a pricing strategy and create dynamic pricing models by analyzing comparable H&M products and categories against competitors.
+<h3>1. 가격 최적화</h3>
+비교 가능한 H&M 제품 및 カテゴリー를 경쟁사와 비교 분석하여 가격 전략을 수립하고 동적 가격 모델을 구축합니다.
 
-<h3>2. Product Inventory</h3>
-Identify inventory shortages of H&M products, detect increasing demand for specific items, and uncover emerging trends among consumers.
+<h3>2. 제품 재고</h3>
+H&M 제품의 재고 부족을 식별하고, 특정 아이템에 대한 수요 증가를 감지하며, 소비자 사이에서 떠오르는 트렌드를 파악합니다.
 
-<h3>3. Market Strategy</h3>
-Leverage the H&M dataset to perform market strategy analysis, identifying key trends and consumer preferences.
+<h3>3. 시장 전략</h3>
+H&M データセット를 활용하여 시장 전략 분석을 수행하고, 핵심 트렌드와 소비자 선호를 식별합니다.
 
-<h2>Free access to web scraping tools and datasets for academic researchers and NGOs</h2>
+<h2>학술 연구자 및 NGO를 위한 Webスクレイピング 도구와 データセット 무료 이용</h2>
 
-The Bright Initiative offers access to Bright Data's <b>[Web Scraper APIs](https://brightdata.com/products/web-scraper)</b> and <b>[ready-to-use datasets](https://brightdata.com/products/datasets)</b> to leading academic faculties and researchers, NGOs and NPOs promoting various environmental and social causes. You can submit an application <b>[here](https://brightinitiative.com)</b>.
+Bright Initiative는 다양한 환경 및 사회적 대의를 증진하는 주요 학술 기관 및 연구자, NGO 및 NPO에 Bright Data의 <b>[Web Scraper APIs](https://brightdata.co.kr/products/web-scraper)</b> 및 <b>[바로 사용 가능한 データセット](https://brightdata.co.kr/products/datasets)</b>에 대한 접근 권한을 제공합니다. <b>[여기](https://brightinitiative.com)</b>에서 신청서를 제출할 수 있습니다.
